@@ -6,7 +6,7 @@ function draw() {
     //background white
     background("#FFF");
     // 25 shapes will be drawn
-    for (let i = 0; i < 25; ++ i) {
+    for (let i = 1; i < 25; ++ i) {
         //Moving x coordinate for each shape drawn; no overlap of shapes
         let x = i*25; 
         
