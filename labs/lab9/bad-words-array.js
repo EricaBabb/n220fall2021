@@ -15,10 +15,13 @@ function findBad () {
 //spliting the user input string into array elements on spaces
 let splitString = stringLower.split (" ");
 
+//array of bad words
 let badWords = ["clear", "water", "tires"]
 
+//filter the splitString for bad words
 var foundBadWords = splitString.filter(el => badWords.includes(el));
 
+//join the filtered bad words with a comma and space
 foundDiv.innerHTML = foundBadWords.join (", ");
 tallyDiv.innerHTML = foundBadWords.length;
 
