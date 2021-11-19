@@ -1,0 +1,30 @@
+.rgb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 5px;
+  background-color: lightgray;
+  height: 25px;
+  width: 35px;
+  border: solid gray 2px;
+  text-align: center;
+}
+
+#colorDiv {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  border: solid gray 2px;
+}
+
+#currentColor {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}
