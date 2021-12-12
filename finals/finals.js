@@ -75,8 +75,7 @@ function levelOne(){
   //x position, y position, width, height
   ellipse(ballX,ballY,ballSize,ballSize);
 
-  //update score and level
-  scoreDiv.innerHTML = `Score: ${+score}`;
+  //update level
   levelDiv.innerHTML = "Level 1";
 
   //intialize time
@@ -103,6 +102,7 @@ function levelOne(){
   ballY = random(0,400);
   //score = score + 1
     score++
+    scoreDiv.innerHTML = `Score: ${score}`;
   }
   //if the score is above 5
   if (score > 5){
@@ -118,8 +118,7 @@ function levelTwo(){
     //x position, y position, width, height
   ellipse(ballX,ballY,ballSize/2,ballSize/2);
 
-  //update score and level
-  scoreDiv.innerHTML = `Score: ${+score}`;
+  //update level
   levelDiv.innerHTML = "Level 2";
 
   //intialize time
@@ -145,6 +144,7 @@ function levelTwo(){
   ballY = random(0,400);
   //score = score + 1
     score++
+    scoreDiv.innerHTML = `Score: ${score}`;
   }
   //if the score is above 5
   if (score > 10){
@@ -161,8 +161,7 @@ function levelThree(){
   //x position, y position, width, height
   ellipse(ballX,ballY,ballSize/3,ballSize/3);
 
-  //update score and level
-  scoreDiv.innerHTML = `Score: ${+score}`;
+  //update level
   levelDiv.innerHTML = "Level 3";
 
   //intialize time
@@ -188,6 +187,7 @@ function levelThree(){
   ballY = random(0,400);
   //score = score + 1
     score++
+    scoreDiv.innerHTML = `Score: ${score}`;
   }
   //if the score is above 5
   if (score > 15){
