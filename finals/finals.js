@@ -25,7 +25,7 @@ timeDiv.style.fontSize = "25px";
 
 scoreDiv.innerHTML = "Score";
 levelDiv.innerHTML = "Level";
-timeDiv.innerHTML = "Time";
+timeDiv.innerHTML = "Time: 15";
 
 //Append divs to page
 document.body.appendChild(scoreDiv);
