@@ -1,4 +1,4 @@
-//Chase The Ball Game
+//Follow The Ball Game
 
 //create divs for score and level text
 let scoreDiv = document.createElement("div");
